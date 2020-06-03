@@ -20,6 +20,7 @@ RUN apk add --no-cache \
         libxml2-dev     \
         openssh-client     \
         nodejs \
+        npm \
         git \
     && rm -rf /var/cache/apk/*
 
